@@ -1,0 +1,159 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    color:rgb(20, 20, 20);
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+@media(max-width:920px) {
+    .avatar {
+        width: 200px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .avatar-div {
+        margin: auto;
+    }
+}
+
+hr {
+    border: 1px solid rgb(255, 187, 240);
+}
+
+.info {
+    width: 100%;
+    margin: 40px 40px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.info p {
+    margin: 0;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: black;
+    border: 2px solid rgb(255, 187, 240);
+    border-radius: 21px;
+    background-color: rgb(255, 246, 253);
+}
+
+@media(max-width: 920px) {
+    .container {
+        max-width: 90%;
+        font-size: 15px;
+        margin: auto;
+    }
+}
+
+@media(max-width: 400px) {
+    .container {
+        max-width: 95%;
+        font-size: 12px;
+        margin: auto;
+    }
+}
+
+.table {
+    width: 100%;
+}
+
+@media(max-width: 350px) {
+    .table {
+        font-size: 9px;
+    }
+}
+
+.table tr {
+    text-align: left;
+}
+
+.container-in {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media(max-width: 920px) {
+    .container-in {
+        font-size: 15px;
+        margin: auto;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}
+
+.top-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education {
+    width: 48%;
+}
+
+@media(max-width:920px) {
+    .education {
+        width: 100%;
+    }
+}
+
+.card-work {
+    width: 48%;
+    margin-left: 10px;
+}
+
+@media(max-width:920px) {
+    .card-work {
+        width: 100%;
+    }
+}
+
+.card-skill {
+    width: 48%;
+}
+
+@media(max-width:920px) {
+    .card-skill {
+        width: 100%;
+    }
+}
+
+.info-dop {
+    width: 48%;
+    margin-left: 10px;
+}
+
+@media(max-width:920px) {
+    .info-dop {
+        width: 100%;
+    }
+}
+
+.top-info hr {
+    margin: 0px;
+}
+
+.top-info h2 {
+    text-align: center;
+}
+
+.card-skill p {
+    font-weight: bold;
+}
